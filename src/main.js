@@ -52,9 +52,8 @@ var appFiles = [
 
 cc.dumpConfig();
 
-for( var i=0; i < appFiles.length; i++) {
-    require( "src/" + appFiles[i] );
-}
+for( var i=0; i < appFiles.length; i++)
+    require("src/" + appFiles[i]);
 
 var director = cc.Director.getInstance();
 director.setDisplayStats(true);
@@ -67,4 +66,3 @@ var mainScene = SysMenu.scene();
 
 // run
 director.runWithScene(mainScene);
-

@@ -3,7 +3,7 @@ dirs=native
 
 [design]
 height=480
-policy=no-border
+policy=show-all
 width=320
 
 [html5]
